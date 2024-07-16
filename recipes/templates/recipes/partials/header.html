@@ -1,0 +1,20 @@
+{% load static %}
+
+<div class="container">
+    <header class="header-links">
+        <nav>
+            <ul>
+                <li><a href={% url "recipes:home" %} class='underline'>Home</a></li>
+                <li><a href="#" class='underline'>Conta</a></li>
+                <li><a href="#" class='underline'>Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wave">
+        <img src="{% static 'recipes/gifs/wave.gif' %}" alt="Wave">
+    </div>
+    <main>
+        <img src="{% static 'recipes/images/irec_title.png' %}" alt="iRecipies title" class="title_img">
+    </main>
+</div>
