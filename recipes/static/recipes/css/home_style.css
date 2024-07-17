@@ -281,4 +281,6 @@ nav ul li a {
 
 .preparation-steps{
     padding: var(--spacing-gutter-medium);
+    font-size: 20px;
+    text-align: left;
 }
